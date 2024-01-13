@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9261b1b-ce6c-43ef-8bbf-2fbfb5d388ec" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/Command/Exchange/BankAbstract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/Exchange/Mono.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/Exchange/Privat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/.docker/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/.docker/php/xdebug.ini" afterDir="false" />
+    <list default="true" id="e9261b1b-ce6c-43ef-8bbf-2fbfb5d388ec" name="Changes" comment="Initial commit 2">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Exchange.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Exchange/Mono.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/Exchange/Mono.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../symfony-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../symfony-docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../symfony-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../../symfony-docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../video" beforeDir="false" afterPath="$PROJECT_DIR$/../../video" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +27,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/symfony/flex" />
@@ -167,16 +173,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "PHPUnit.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/prog3/PhpstormProjects/Test/application",
+    "last_opened_file_path": "/home/prog3/PhpstormProjects/test-stfalcon",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "settings.editor.selected.configurable": "reference.settings.php.debug.xdebug.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -210,7 +217,8 @@
       <workItem from="1705161344091" duration="5000" />
       <workItem from="1705161769224" duration="21000" />
       <workItem from="1705165080765" duration="500000" />
-      <workItem from="1705166938382" duration="338000" />
+      <workItem from="1705166938382" duration="623000" />
+      <workItem from="1705170412279" duration="1484000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -228,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705160795496</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit 2">
+      <option name="closed" value="true" />
+      <created>1705167342636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705167342636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +252,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Initial commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit 2" />
   </component>
 </project>

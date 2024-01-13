@@ -16,19 +16,19 @@ class Mono extends BankAbstract
     {
         $exchangeRates = [];
         foreach ($response as $exchange) {
-            $currencyCodeA = (int)$exchange['currencyCodeA'];
-            $currencyCodeB = (int)$exchange['currencyCodeB'];
+            $currencyCodeA = (int) $exchange['currencyCodeA'];
+            $currencyCodeB = (int) $exchange['currencyCodeB'];
 
             if ($currencyCodeA === self::ISO_USD && $currencyCodeB === self::ISO_UAH) {
                 $exchangeRates['USD'] = [
-                    'buy' => (float)$exchange['rateBuy'],
-                    'sell' => (float)$exchange['rateSell'],
+                    'buy'  => (float) $exchange['rateBuy'],
+                    'sell' => (float) $exchange['rateSell'],
                 ];
             }
             if ($currencyCodeA === self::ISO_EUR && $currencyCodeB === self::ISO_UAH) {
                 $exchangeRates['EUR'] = [
-                    'buy' => (float)$exchange['rateBuy'],
-                    'sell' => (float)$exchange['rateSell'],
+                    'buy'  => (float) $exchange['rateBuy'],
+                    'sell' => (float) $exchange['rateSell'],
                 ];
             }
         }
